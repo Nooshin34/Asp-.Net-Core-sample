@@ -1,0 +1,29 @@
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\bin\Debug\net8.0\appsettings.json
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\bin\Debug\net8.0\Asp.Net core tutorial.staticwebassets.endpoints.json
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\bin\Debug\net8.0\Asp.Net core tutorial.exe
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\bin\Debug\net8.0\Asp.Net core tutorial.deps.json
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\bin\Debug\net8.0\Asp.Net core tutorial.runtimeconfig.json
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\bin\Debug\net8.0\Asp.Net core tutorial.dll
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\bin\Debug\net8.0\Asp.Net core tutorial.pdb
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\Asp.Net core tutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\Asp.Net core tutorial.AssemblyInfoInputs.cache
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\Asp.Net core tutorial.AssemblyInfo.cs
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\Asp.Net core tutorial.csproj.CoreCompileInputs.cache
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\Asp.Net core tutorial.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\scopedcss\bundle\Asp.Net core tutorial.styles.css
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets\msbuild.Asp.Net core tutorial.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets\msbuild.Asp.Net core tutorial.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets\msbuild.build.Asp.Net core tutorial.props
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Asp.Net core tutorial.props
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Asp.Net core tutorial.props
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\Asp.Net core tutorial.dll
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\refint\Asp.Net core tutorial.dll
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\Asp.Net core tutorial.pdb
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\Asp.Net core tutorial.genruntimeconfig.cache
+C:\Users\noush\source\repos\Asp.Net core tutorial\Asp.Net core tutorial\obj\Debug\net8.0\ref\Asp.Net core tutorial.dll
