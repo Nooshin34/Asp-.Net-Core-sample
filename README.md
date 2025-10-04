@@ -34,9 +34,37 @@ ASP.NET Core is a new open-source and cross-platform framework for building mode
 
 
 <h3>***MiddleWares:</h3>
-   Middleware is software that's assembled into an app pipeline to handle requests and responses. Each component:
-      -Chooses whether to pass the request to the next component in the pipeline.
-      -Can perform work before and after the next component in the pipeline.
+   Middleware is software that's assembled into an app pipeline to handle requests and responses. Each component:<br>
+      -Chooses whether to pass the request to the next component in the pipeline.<br>
+      -Can perform work before and after the next component in the pipeline.<br><br>
 
-   Each middleware have just one task.
-   Middleware can be a request delegate(anonymous method or lambda expression) or a class.
+   *Each middleware have just one task.<br>
+   *Middleware can be a request delegate(anonymous method or lambda expression) or a class.<br>
+
+   *In ASP.NET Core, middleware components are arranged in a pipeline, and each middleware can either:<br>
+     Pass the request to the next middleware (non-terminal middleware), or<br>
+     Handle the request completely and stop the pipeline (terminal middleware).<br>
+
+   *Examples of Non-Terminal Middleware (Use):<br>
+      These typically inspect or modify the request/response and then call next():<br>
+      app.UseRouting() → sets up endpoint routing but passes control forward. <br>     
+      app.UseAuthentication() → checks authentication, continues to next. <br>     
+      app.UseAuthorization() → enforces authorization, then continues.<br>      
+      app.UseCors() → applies CORS policies, then forwards the request.<br>      
+      app.Use(async (context, next) => { ... await next(); }) → custom logging, exception handling, timing, etc.<br><br>
+
+   *Examples of Terminal Middleware (Run / endpoint-handling):<br>
+      These end the pipeline because they generate a response without calling next():<br>      
+      app.Run(...) → any delegate you define that writes the final response. <br>    
+      app.MapGet("/hello", () => "Hello World") → endpoint mapping (terminal by design).<br>      
+      app.MapControllers() → MVC/Web API controllers (they handle the request fully).<br>     
+      app.MapRazorPages() → Razor Pages (terminal).<br>      
+      app.MapBlazorHub() → Blazor Server (terminal).<br>      
+      app.UseEndpoints(endpoints => { endpoints.MapControllers(); }) → terminal since endpoints generate responses.<br>     
+      Static file middleware (if a matching file is found, it stops the pipeline)<br>
+      <img width="539" height="251" alt="middle" src="https://github.com/user-attachments/assets/b2630b43-716b-46a5-8bbf-e91740496f41" /><br><br>
+      *How to have my special middleware?(I do it in middleware class)<br>
+      <img width="518" height="239" alt="middle2" src="https://github.com/user-attachments/assets/27e08410-c542-4113-b625-62d560fa13ae" />
+
+
+      
