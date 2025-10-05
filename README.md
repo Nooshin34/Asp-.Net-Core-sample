@@ -63,8 +63,21 @@ ASP.NET Core is a new open-source and cross-platform framework for building mode
       app.UseEndpoints(endpoints => { endpoints.MapControllers(); }) → terminal since endpoints generate responses.<br>     
       Static file middleware (if a matching file is found, it stops the pipeline)<br>
       <img width="539" height="251" alt="middle" src="https://github.com/user-attachments/assets/b2630b43-716b-46a5-8bbf-e91740496f41" /><br><br>
-      *How to have my special middleware?(I do it in middleware class)<br>
-      <img width="518" height="239" alt="middle2" src="https://github.com/user-attachments/assets/27e08410-c542-4113-b625-62d560fa13ae" />
+      <h3>***How to have my special middleware?(I do it in middleware class)</h3><br>
+      <img width="518" height="239" alt="middle2" src="https://github.com/user-attachments/assets/27e08410-c542-4113-b625-62d560fa13ae" /><br>
+      <h3>***How to write middleware like an extension method?</h3><br>
+      <img width="511" height="185" alt="asp1" src="https://github.com/user-attachments/assets/44c3d4c4-d862-41df-bd7e-8298a8b5ad7d" /><br><br>
+      <h3>***Middleware order:</h3><br>
+      <img width="760" height="440" alt="asp2" src="https://github.com/user-attachments/assets/afe8179b-2bb3-41c7-8b9a-7d92503c424e" /><br><br>
+      <h3>***UseWhen for middlewares:</h3><br>
+      <img width="611" height="275" alt="asp3" src="https://github.com/user-attachments/assets/7891813d-5702-4fa3-918e-799b61410430" /><br><br>
+      UseWhen is an ASP.NET Core middleware branching method that allows you to conditionally add middleware to the request pipeline based on a predicate.<br>
+      <h3>***ROUTING:</h3><br>
+      In ASP.NET Core, routing is the system that maps incoming HTTP requests (like URLs) to the corresponding code that should handle them — usually a controller action, a Razor Page, a middleware delegate, or an endpoint.<br>
+      <img width="632" height="152" alt="asp4" src="https://github.com/user-attachments/assets/2d67e807-68de-4aff-91d0-30792bcdc881" /><br><br>
+      <img width="700" height="365" alt="asp5" src="https://github.com/user-attachments/assets/ce274601-a6c2-4fa9-b0be-939a61561003" />
+
+
 
 
       
