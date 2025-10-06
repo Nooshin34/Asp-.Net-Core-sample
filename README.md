@@ -75,7 +75,14 @@ ASP.NET Core is a new open-source and cross-platform framework for building mode
       <h3>***ROUTING:</h3><br>
       In ASP.NET Core, routing is the system that maps incoming HTTP requests (like URLs) to the corresponding code that should handle them — usually a controller action, a Razor Page, a middleware delegate, or an endpoint.<br>
       <img width="632" height="152" alt="asp4" src="https://github.com/user-attachments/assets/2d67e807-68de-4aff-91d0-30792bcdc881" /><br><br>
-      <img width="700" height="365" alt="asp5" src="https://github.com/user-attachments/assets/ce274601-a6c2-4fa9-b0be-939a61561003" />
+      <img width="700" height="365" alt="asp5" src="https://github.com/user-attachments/assets/ce274601-a6c2-4fa9-b0be-939a61561003" /><br><br>
+      <h3>***How to use useEndpoint:</h3><br>
+      <img width="529" height="158" alt="asp1" src="https://github.com/user-attachments/assets/2b01c162-7b89-4b50-86c6-a1c567cf5149" /><br><br>
+      <h3>***Differences between map, mapGet, mapPost, ...:</h3><br>
+      <img width="743" height="287" alt="asp3" src="https://github.com/user-attachments/assets/fe88500c-74c3-4fd2-b48c-491c67bea623" /><br><br>
+      <h3>***GetEndpoint():</h3><br>
+      If we use it before UseRouting(), it returns null but if we use it after that it returns endpoint object.(UseRouting() check if the current URL matches any item in a predefined list (e.g., aboutUs), and find out that this request belongs to which endpoint)<br>
+      <img width="544" height="153" alt="asp4" src="https://github.com/user-attachments/assets/b9d791a3-c73e-446c-9064-b5ac1e6a1fa7" /><br><br>
 
 
 
