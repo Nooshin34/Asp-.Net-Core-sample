@@ -83,6 +83,14 @@ ASP.NET Core is a new open-source and cross-platform framework for building mode
       <h3>***GetEndpoint():</h3><br>
       If we use it before UseRouting(), it returns null but if we use it after that it returns endpoint object.(UseRouting() check if the current URL matches any item in a predefined list (e.g., aboutUs), and find out that this request belongs to which endpoint)<br>
       <img width="544" height="153" alt="asp4" src="https://github.com/user-attachments/assets/b9d791a3-c73e-446c-9064-b5ac1e6a1fa7" /><br><br>
+      <h3>***Route parameters:</h3><br>
+      Routing parameters are placeholders in a URL that let you pass values to your code (like an action method).<br>
+      for example:<br>
+      pattern: "products/{productName}"<br>
+      /products/noteBooks<br>
+      <h3>***Default parameters:</h3><br>
+      If the URL doesn’t give a value for that part, ASP.NET Core will use a default value instead.<br>
+      pattern: "products/{productName = book}"<br>
 
 
 
