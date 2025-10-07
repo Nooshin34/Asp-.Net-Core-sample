@@ -91,7 +91,15 @@ ASP.NET Core is a new open-source and cross-platform framework for building mode
       <h3>***Default parameters:</h3><br>
       If the URL doesn’t give a value for that part, ASP.NET Core will use a default value instead.<br>
       pattern: "products/{productName = book}"<br>
-
+      <h3>***Route constraints:</h3><br>
+      For example for productName i want to it's always be int not string or ... and we cant use all data types for route constraints<br>
+      pattern: "products/{productName: int}"<br.
+      <img width="518" height="463" alt="asp1" src="https://github.com/user-attachments/assets/ee300e9f-dfed-4c3a-b2cf-e941b6ada1a9" /><br><br>
+      <h3>***How to define my customized route constraint:</h3><br>
+      <img width="491" height="275" alt="asp2" src="https://github.com/user-attachments/assets/4b482f8b-1bde-454a-9428-9f4685500652" /><br><br>
+      pattern: "products/{productName}"<br>
+      productName is rout key.
+      productName is route value.
 
 
 
