@@ -98,8 +98,14 @@ ASP.NET Core is a new open-source and cross-platform framework for building mode
       <h3>***How to define my customized route constraint:</h3><br>
       <img width="491" height="275" alt="asp2" src="https://github.com/user-attachments/assets/4b482f8b-1bde-454a-9428-9f4685500652" /><br><br>
       pattern: "products/{productName}"<br>
-      productName is rout key.
-      productName is route value.
+      productName is rout key.<br>
+      The value of productName is route value.<br>
+      <h3>***Endpoint selection order:</h3><br>
+      <img width="506" height="280" alt="asp1" src="https://github.com/user-attachments/assets/c086e3a6-6e58-4a81-b50d-ee43d09ddae0" /><br><br>
+      for example:<br>
+      pattern: "products/{productName}/{month}"<br>
+      pattern: "products/book/{month}" ----> this one has priority<br> 
+
 
 
 
